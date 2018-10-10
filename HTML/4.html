@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计表单</title>
+</head>
+<body>
+<form action="" method="post" enctype="multipart/form-data" >
+    <img src="https://p1.ssl.qhmsg.com/dr/270_500_/t017484d45d5af44608.jpg" alt="图片加载失败"width="200px" ><br>
+    用户名：<input type="text" name="username" value="" placeholder="请输入用户名" > <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;密码: <input type="password" placeholder="please enter your password" name="password" ><br>
+    性别: <input type="radio" name="gender" value="0" > 男
+    <input type="radio" name="gender" value="1" > 女
+    <br>
+    爱好：<input type="checkbox" name="hobby[]" value="1"> movies
+    <input type="checkbox" name="hobby[]" value="2"> swimming
+    <input type="checkbox" name="hobby[]" value="3"> ping pang ball
+    <input type="checkbox" name="hobby[]" value="4"> basketball
+    <input type="checkbox" name="hobby[]" value="0"> others
+    <br>
+    学历：
+    <select name="educational background" >
+        <option value="0">小学</option>
+        <option value="1">初中</option>
+        <option value="2">高中</option>
+        <option value="3">大学</option>
+        <option value="4">其他</option>
+    </select><br>
+    请上传你的照片：<input type="file" name="own's picture"><br>
+    请输入个人说明：<br>
+    <textarea name="own's describe"  cols="30" rows="10" placeholder="请输入个人信息说明"></textarea>
+    <br>
+    <input type="submit" value="确定"><br>
+    <input type="reset" value="重新设置">
+    <button>提交</button>
+    
+</form>
+</body>
+</html>
