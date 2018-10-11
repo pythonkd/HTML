@@ -1,0 +1,10 @@
+div{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+.a{
+    color: #c8992c;
+    border: 3px solid green;
+    width: 600px;
+}
